@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+h2{ color: #FFFFFF;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    padding: 20px 0; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#2C3E50 ;
+    width: 100%;
+    height: 50px;
+    color: #FFFFFF;
+    padding: 20px 0px;
+
+}
+.logo{
+ justify-content: center;
+ width: 40%;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ text-transform: uppercase;
+ font-size: 25px;
+}
+.nav-text{
+    width: 60%;
+    color: #FFFFFF;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10px;
+}
+li{
+    text-decoration: none;
+    margin: 0px 20px;
+}
+li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow ', ;
+
+}
+section{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.s1{
+    flex-direction: column;
+    background-color: #DC3545;
+    gap: 10px;
+    padding: 100px 0;
+}
+.s1 img {
+    width: 13%;
+}
+.s1 p{
+    color: #FFFFFF;
+    font-size:larger;
+}
+.s2{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.image{
+    flex-direction: row;
+    width: 80%;
+}
+.image img{
+    margin: 15px;
+    width: 30%;      /*mettre a 40% sur @mediaquery*/
+    border-radius: 15px; 
+}
+.s3{
+    flex-direction: column;
+    background-color: #DC3545;
+    color: #FFFFFF;
+    height: auto;
+}
+.p-about{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 100px 0px;
+    width: 100%;
+}
+.p-about p{
+    width: 40vw;
+    overflow: hidden;
+    height: auto;
+    text-align: justify;
+    
+}
+.s4{
+    flex-direction: column;
+}
+.s4 h3{
+    color: #2C3E50;
+}
+#inp{
+    width: 60%;
+    height: auto;
+    text-align: start;
+}
+input{
+    border-style: hidden;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    margin: 30px 0px;
+    padding: 20px 0;
+}
+textarea{
+    border-style: hidden;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    margin: 30px 0px;
+    padding: 20px 0;
+    resize: none; 
+}
+#btn{
+    padding: 15px 30px;
+    background-color:#DC3545;
+    border-radius: 5px;
+    justify-content: left;
+    position: relative;
+    margin: 10px 0px 40px 0px;
+}
+.titre{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2C3E50;
+    width: 100%;
+}
+#ftr1{
+    flex-direction: column;
+    width: 20%;
+}
+#ftr1 p:nth-of-type(2){
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#ftr2{
+    flex-direction: column;
+    width: 20%;
+}
+#ftr2 p:nth-of-type(2){
+    color: #FFFFFF;
+    font-size: 25px;
+    width: 100%;
+    padding: 10px 0px;
+    height: auto;
+}
+#ftr2 p:nth-of-type(2) i{
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    width: 12%;
+    padding: 5px;
+    height: auto;
+}
+#ftr3{
+    flex-direction: column;
+    width: 20%;
+}
+#ftr3 p:nth-of-type(2){
+    color: #FFFFFF;
+    font-size: large;
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width:425px)/*mobile L*/ {
+    nav{
+        flex-direction: column;
+        height: auto;
+        border-bottom: #2C3E50;
+    }
+ul{
+    flex-direction: column;
+    margin: 20px 0;
+}
+.image img{
+    width: 80%;
+}
+footer{
+    text-align: center;
+    flex-direction: column;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: center;
+
+}
+#ftr2 p:nth-of-type(2) {
+    width: 50%;  
+}
+#ftr2 p:nth-of-type(2) i{
+    border: none;
+    font-size: 25px;
+}
+.p-about{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+}
