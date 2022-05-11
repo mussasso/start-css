@@ -103,10 +103,11 @@ section{
     width: 100%;
 }
 .p-about p{
-    width: 40vw;
+    width: 30vw;
     overflow: hidden;
     height: auto;
     text-align: justify;
+    padding: 10px 0;
     
 }
 .s4{
@@ -137,6 +138,8 @@ textarea{
 }
 #btn{
     padding: 15px 30px;
+    border: none;
+    color: #FFFFFF;
     background-color:#DC3545;
     border-radius: 5px;
     justify-content: left;
@@ -152,9 +155,10 @@ textarea{
 footer{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:baseline;
     background-color: #2C3E50;
     width: 100%;
+    padding: 10px 0;
 }
 #ftr1{
     flex-direction: column;
@@ -163,6 +167,7 @@ footer{
 #ftr1 p:nth-of-type(2){
     color: #FFFFFF;
     text-transform: capitalize;
+    font-size: 100%;
     font-weight: 100;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -172,15 +177,15 @@ footer{
 }
 #ftr2 p:nth-of-type(2){
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 100%;
     width: 100%;
-    padding: 10px 0px;
+    padding: 20px 0px;
     height: auto;
 }
 #ftr2 p:nth-of-type(2) i{
     border: 1px solid #FFFFFF;
     border-radius: 50%;
-    width: 12%;
+    width: auto;
     padding: 5px;
     height: auto;
 }
@@ -190,6 +195,7 @@ footer{
 }
 #ftr3 p:nth-of-type(2){
     color: #FFFFFF;
+    font-size: 10px;
     font-size: large;
     width: 100%;
     height: auto;
@@ -228,6 +234,21 @@ footer{
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+#ftr1{
+    width: 70%;
+    text-align: justify;
+    padding: 20px 0;
+    margin: 10px 0;
+}
+#ftr2{
+    width: 70%;
+    text-align: justify;
+}
+#ftr3{
+    width: 70%;
+    text-align: justify;
+    font-size: 10px;
 }
 
 }
