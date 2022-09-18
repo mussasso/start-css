@@ -213,6 +213,13 @@ ul{
 .image img{
     width: 80%;
 }
+.s1 img{
+    width: 50%;
+}
+.inp{
+    padding:  10px 0;
+}
+
 footer{
     text-align: center;
     flex-direction: column;
@@ -234,6 +241,11 @@ footer{
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 20px auto;
+
+}
+.p-about p{
+    width: 80%;
 }
 #ftr1{
     width: 70%;
